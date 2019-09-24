@@ -1,0 +1,69 @@
+#box {
+  height: 18rem;
+  width: 18rem;
+  background: #333;
+  position: relative;
+  transition: .2s ease;
+}
+
+#txtBox {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bkgdBox {
+  background-image: url("test.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#txtBox p {
+  background: #333;
+  padding: 1rem;
+  width: 12rem;
+  border: 2px solid black;
+  border-right: 0;
+  transition: .5s ease;
+}
+
+#txtBox a {
+  background: #333;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  border: 2px solid black;
+  transition: .2s ease;
+}
+
+/* ********************************************************** */
+
+/* #box {
+  height: 30rem;
+  width: 50rem;
+  background: #333;
+  position: relative;
+  transition: .2s ease;
+}
+
+#bkgdBox {
+  background-image: url("test.png");
+  height: 20rem;
+  width: 20rem;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid indianred;
+  position: relative;
+  top: 0.5rem;
+  left: 0.5rem;
+} */
